@@ -43,9 +43,6 @@ TBC(cleaned)_COMMIT 0273aa6  by stfx (commiter Schmoozerd) " [s1369] Add missing
 TBC(cleaned)_COMMIT 2ac71ce  by TOM_RUS (commiter Schmoozerd) " [s1380] Move movementInfo field to Unit, rename movement flags to fit 3.3.5 naming 'standart' "
   99.6% src/game/
 
-TBC(cleaned)_COMMIT 237a34d  by TOM_RUS (commiter Schmoozerd) " [s1381] Added appendPackXYZ to ByteBuffer class. "
- 100.0% src/shared/
-
 TBC(cleaned)_COMMIT b69d446  by SilverIce (commiter Schmoozerd) " [s1382] Implement spline movement subsystem "
   41.8% src/game/movement/
   32.7% src/game/
