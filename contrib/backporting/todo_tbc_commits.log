@@ -82,10 +82,6 @@ TBC(cleaned)_COMMIT 8c0b279  by stfx (commiter Schmoozerd) " [s1390] Rename MOVE
   14.6% src/game/movement/
   84.8% src/game/
 
-TBC(cleaned)_COMMIT 6ec80f7  by SilverIce (commiter Schmoozerd) " [s1395] A bit gameobject code refactoring "
-  96.7% src/game/
-   3.2% src/shared/
-
 TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix an old bug related to GO spawnmask check "
   98.2% src/shared/
 
