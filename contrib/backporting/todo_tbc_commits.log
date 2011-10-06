@@ -88,10 +88,6 @@ TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix a
 TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a bug preventing displaying correct instance reset time "
   97.2% src/game/
 
-TBC(cleaned)_COMMIT 7c7f344  by stfx (commiter Schmoozerd) " [s1398] Add possibility to send sound only to a zone in Map::PlayDirectSoundToMap "
-  89.5% src/game/
-  10.4% src/shared/
-
 TBC(cleaned)_COMMIT 1ddcba1  by stfx (commiter Schmoozerd) " [s1399] Receiving whispers while being dnd "
   14.9% sql/updates/
    6.3% sql/
