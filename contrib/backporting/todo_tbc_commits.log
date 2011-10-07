@@ -88,10 +88,6 @@ TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix a
 TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a bug preventing displaying correct instance reset time "
   97.2% src/game/
 
-TBC(cleaned)_COMMIT 75938fb  by stfx (commiter Schmoozerd) " [s1401] Update git_id tool for new repo location "
-  81.7% contrib/git_id/
-  18.2% src/shared/
-
 TBC(cleaned)_COMMIT 0361ee7  by stfx (commiter Schmoozerd) " [s1402] Fix sending custom GO animation for Type10 GOs "
   83.9% src/game/
   16.0% src/shared/
