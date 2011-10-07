@@ -88,9 +88,6 @@ TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix a
 TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a bug preventing displaying correct instance reset time "
   97.2% src/game/
 
-TBC(cleaned)_COMMIT 61e2366  by stfx (commiter Schmoozerd) " [s1400] Use the same variable to store the message for AFK and DND "
-  97.7% src/game/
-
 TBC(cleaned)_COMMIT 75938fb  by stfx (commiter Schmoozerd) " [s1401] Update git_id tool for new repo location "
   81.7% contrib/git_id/
   18.2% src/shared/
