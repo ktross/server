@@ -88,13 +88,10 @@ TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix a
 TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a bug preventing displaying correct instance reset time "
   97.2% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 7101a08  by SilverIce (commiter Schmoozerd) " [s1405] update creature's unit part(update spell events, auras, movement) while in death. thanks to rsa for making tests "
   93.3% src/game/
    6.6% src/shared/
-
-TBC(cleaned)_COMMIT 462ed81  by SilverIce (commiter Schmoozerd) " [s1406] move SetActiveObjectState to WorldObject level "
-  95.8% src/game/
-   4.1% src/shared/
 
 TBC(cleaned)_COMMIT f6ef094  by SilverIce (commiter Schmoozerd) " [s1407] Cleanup spline flag code. "
   23.2% src/game/movement/
