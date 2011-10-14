@@ -93,13 +93,10 @@ TBC(cleaned)_COMMIT 7101a08  by SilverIce (commiter Schmoozerd) " [s1405] update
   93.3% src/game/
    6.6% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT f6ef094  by SilverIce (commiter Schmoozerd) " [s1407] Cleanup spline flag code. "
   23.2% src/game/movement/
   72.9% src/game/
-   3.7% src/shared/
-
-TBC(cleaned)_COMMIT f04b281  by PSZ (commiter Schmoozerd) " [s1408] Add more functionality to CONDITION_QUESTTAKEN "
-  96.2% src/game/
    3.7% src/shared/
 
 TBC(cleaned)_COMMIT 5745c66  by Schmoozerd (commiter Schmoozerd) " [s1409] Add SCRIPT_COMMAND_MODIFY_NPC_FLAG to change NPC flags by db-script "
