@@ -99,10 +99,6 @@ TBC(cleaned)_COMMIT f6ef094  by SilverIce (commiter Schmoozerd) " [s1407] Cleanu
   72.9% src/game/
    3.7% src/shared/
 
-TBC(cleaned)_COMMIT 5745c66  by Schmoozerd (commiter Schmoozerd) " [s1409] Add SCRIPT_COMMAND_MODIFY_NPC_FLAG to change NPC flags by db-script "
-   7.4% doc/
-  91.5% src/game/
-
 TBC(cleaned)_COMMIT 7e4d362  by Schmoozerd (commiter Schmoozerd) " [s1410] Note meaning of second value for CONDITION_QUESTTAKEN "
   75.9% src/game/
   24.0% src/shared/
