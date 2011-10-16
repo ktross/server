@@ -99,10 +99,6 @@ TBC(cleaned)_COMMIT f6ef094  by SilverIce (commiter Schmoozerd) " [s1407] Cleanu
   72.9% src/game/
    3.7% src/shared/
 
-TBC(cleaned)_COMMIT 7e4d362  by Schmoozerd (commiter Schmoozerd) " [s1410] Note meaning of second value for CONDITION_QUESTTAKEN "
-  75.9% src/game/
-  24.0% src/shared/
-
 TBC(cleaned)_COMMIT b753212  by SilverIce (commiter Schmoozerd) " [s1411] Implement creature offhand attack. based on patch from maxxx2021 "
   99.2% src/game/
 
