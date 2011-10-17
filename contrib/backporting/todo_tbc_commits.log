@@ -103,10 +103,6 @@ Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 348032f  by SilverIce (commiter Schmoozerd) " [s1412] remove no more needed CORPSE_FALLING state, move FallGround method to more appropriate place "
   97.6% src/game/
 
-TBC(cleaned)_COMMIT 1f1abbf  by Schmoozerd (commiter Schmoozerd) " [s1414] Do not allow referenced loot with negative chance, bug found by crackm "
-  92.5% src/game/
-   7.4% src/shared/
-
 TBC(cleaned)_COMMIT 481fe01  by SilverIce (commiter Schmoozerd) " [s1415] Implement jump (parabolic movement) effect "
   12.1% sql/updates/
    9.0% sql/
