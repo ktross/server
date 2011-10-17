@@ -99,12 +99,9 @@ TBC(cleaned)_COMMIT f6ef094  by SilverIce (commiter Schmoozerd) " [s1407] Cleanu
   72.9% src/game/
    3.7% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 348032f  by SilverIce (commiter Schmoozerd) " [s1412] remove no more needed CORPSE_FALLING state, move FallGround method to more appropriate place "
   97.6% src/game/
-
-TBC(cleaned)_COMMIT d0bd100  by Schmoozerd (commiter Schmoozerd) " [s1413] Implement Creature Linking via database "
-   5.8% sql/
-  91.6% src/game/
 
 TBC(cleaned)_COMMIT 1f1abbf  by Schmoozerd (commiter Schmoozerd) " [s1414] Do not allow referenced loot with negative chance, bug found by crackm "
   92.5% src/game/
