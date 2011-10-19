@@ -116,10 +116,6 @@ TBC(cleaned)_COMMIT f316951  by stfx (commiter Schmoozerd) " [s1416] In 2.4.3 kn
    3.2% src/game/movement/
   95.2% src/game/
 
-TBC(cleaned)_COMMIT f349caf  by stfx (commiter Schmoozerd) " [s1419] Fix spell 12162 after 5a793da "
-  96.9% src/game/
-   3.0% src/shared/
-
 TBC(cleaned)_COMMIT 605aeb5  by Vinolentus (commiter Schmoozerd) " [s1420] Fix SqlStatement::addBool "
   90.2% src/shared/Database/
    9.7% src/shared/
