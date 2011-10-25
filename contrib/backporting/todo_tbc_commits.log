@@ -116,10 +116,6 @@ TBC(cleaned)_COMMIT f316951  by stfx (commiter Schmoozerd) " [s1416] In 2.4.3 kn
    3.2% src/game/movement/
   95.2% src/game/
 
-TBC(cleaned)_COMMIT 605aeb5  by Vinolentus (commiter Schmoozerd) " [s1420] Fix SqlStatement::addBool "
-  90.2% src/shared/Database/
-   9.7% src/shared/
-
 TBC(cleaned)_COMMIT b39a7ac  by Nighoo (commiter Schmoozerd) " [s1421] Some more documentation and information for soap example "
   76.5% contrib/soap/
   23.4% src/shared/
