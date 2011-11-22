@@ -116,10 +116,6 @@ TBC(cleaned)_COMMIT f316951  by stfx (commiter Schmoozerd) " [s1416] In 2.4.3 kn
    3.2% src/game/movement/
   95.2% src/game/
 
-TBC(cleaned)_COMMIT 437abd4  by kaelima (commiter Schmoozerd) " [s1422] Small code cleanup in Player::UpdateWeaponSkill "
-  95.3% src/game/
-   4.6% src/shared/
-
 TBC(cleaned)_COMMIT 9bdbc23  by Schmoozerd (commiter Schmoozerd) " [s1423] Add support to send custom gameobject anim for a few traps "
   84.4% src/game/
   15.5% src/shared/
