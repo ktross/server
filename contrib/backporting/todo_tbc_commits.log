@@ -121,9 +121,6 @@ TBC(cleaned)_COMMIT c573f6b  by stfx (commiter Schmoozerd) " [s1428] Fix SMSG_MO
   49.5% src/game/movement/
   50.4% src/shared/
 
-TBC(cleaned)_COMMIT 65e1d36  by Schmoozerd (commiter Schmoozerd) " [s1429] Changes to default target selection "
-  99.1% src/game/
-
 TBC(cleaned)_COMMIT b8246e8  by Schmoozerd (commiter Schmoozerd) " [s1430] Fix teleport spells with TargetType (TARGET_TABLE_X_Y_Z_COORDINATES, NO_TARGET) "
   86.9% src/game/
   13.0% src/shared/
