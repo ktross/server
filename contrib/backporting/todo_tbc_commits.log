@@ -116,18 +116,7 @@ TBC(cleaned)_COMMIT f316951  by stfx (commiter Schmoozerd) " [s1416] In 2.4.3 kn
    3.2% src/game/movement/
   95.2% src/game/
 
-TBC(cleaned)_COMMIT 306e0cf  by Schmoozerd (commiter Schmoozerd) " [s1425] Add spell difficulty selection for creature*_addon auras "
-  78.7% src/game/
-  21.2% src/shared/
-
-TBC(cleaned)_COMMIT 796c5c8  by Xfurry (commiter Schmoozerd) " [s1426] Implement spells 45976, 46177, 45989 for M'uru encounter "
-  93.7% src/game/
-   6.2% src/shared/
-
-TBC(cleaned)_COMMIT 05ab6e1  by Xfurry (commiter Schmoozerd) " [s1427] Implement ScriptEffects for spells 45141, 45151, 45206 for Brutallus "
-  94.6% src/game/
-   5.3% src/shared/
-
+Need check for classic ?
 TBC(cleaned)_COMMIT c573f6b  by stfx (commiter Schmoozerd) " [s1428] Fix SMSG_MONSTER_MOVE_TRANSPORT for 2.4.3 "
   49.5% src/game/movement/
   50.4% src/shared/
