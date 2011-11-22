@@ -116,11 +116,6 @@ TBC(cleaned)_COMMIT f316951  by stfx (commiter Schmoozerd) " [s1416] In 2.4.3 kn
    3.2% src/game/movement/
   95.2% src/game/
 
-TBC(cleaned)_COMMIT 51f3a2c  by Schmoozerd (commiter Schmoozerd) " [s1424] Fix script command modify_npc_flag "
-  62.6% doc/
-  23.6% src/game/
-  13.6% src/shared/
-
 TBC(cleaned)_COMMIT 306e0cf  by Schmoozerd (commiter Schmoozerd) " [s1425] Add spell difficulty selection for creature*_addon auras "
   78.7% src/game/
   21.2% src/shared/
