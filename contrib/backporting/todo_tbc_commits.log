@@ -119,11 +119,6 @@ TBC(cleaned)_COMMIT c573f6b  by stfx (commiter Schmoozerd) " [s1428] Fix SMSG_MO
   50.4% src/shared/
 
 Need check for classic ?
-TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecting a few indoor locations in 2.4.3 "
-  89.7% src/game/
-  10.2% src/shared/
-
-Need check for classic ?
 TBC(cleaned)_COMMIT 2234d57  by Schmoozerd (commiter Schmoozerd) " [s1445] Fix sent level in trainer spell list - this fixes problems especially with druid trainers "
   97.1% src/game/
 
