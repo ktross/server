@@ -297,9 +297,12 @@ enum ConditionType
     CONDITION_ACTIVE_HOLIDAY        = 26,                   // holiday_id   0       preferred use instead CONDITION_ACTIVE_GAME_EVENT when possible
     CONDITION_NOT_ACTIVE_HOLIDAY    = 27,                   // holiday_id   0       preferred use instead CONDITION_NOT_ACTIVE_GAME_EVENT when possible
     CONDITION_LEARNABLE_ABILITY     = 28,                   // spell_id     0 or item_id
-    // True when player can learn ability (using min skill value from SkillLineAbility).
-    // Item_id can be defined in addition, to check if player has one (1) item in inventory or bank.
-    // When player has spell or has item (when defined), condition return false.
+                                                            // True when player can learn ability (using min skill value from SkillLineAbility).
+                                                            // Item_id can be defined in addition, to check if player has one (1) item in inventory or bank.
+                                                            // When player has spell or has item (when defined), condition return false.
+    CONDITION_SKILL_BELOW           = 29,                   // skill_id     skill_value
+                                                            // True if player has skill skill_id and skill less than (and not equal) skill_value (for skill_value > 1)
+                                                            // If skill_value == 1, then true if player has not skill skill_id
 };
 
 struct PlayerCondition

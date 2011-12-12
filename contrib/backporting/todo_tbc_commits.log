@@ -126,10 +126,6 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
-TBC(cleaned)_COMMIT 294cfb6  by Schmoozerd (commiter Schmoozerd) " [s1437] Implement Condition CONDITION_SKILL_BELOW to be able to check if a player has a skill lower than a given value "
-  90.4% src/game/
-   9.5% src/shared/
-
 TBC(cleaned)_COMMIT 61a7652  by Sergey (commiter Schmoozerd) " [s1438] Update src/game/SpellEffects.cpp "
   82.4% src/game/
   17.5% src/shared/
