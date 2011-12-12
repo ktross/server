@@ -126,14 +126,6 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
-TBC(cleaned)_COMMIT 61a7652  by Sergey (commiter Schmoozerd) " [s1438] Update src/game/SpellEffects.cpp "
-  82.4% src/game/
-  17.5% src/shared/
-
-TBC(cleaned)_COMMIT 6eb9283  by PSZ (commiter Schmoozerd) " [s1439] Add additional flag SELECT_FLAG_NOT_IN_MELEE_RANGE "
-  93.1% src/game/
-   6.8% src/shared/
-
 TBC(cleaned)_COMMIT 74afa84  by Xfurry (commiter Schmoozerd) " [s1440] Implement spell effects for Kalecgos "
    9.3% sql/updates/
    7.2% sql/
