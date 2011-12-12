@@ -126,18 +126,6 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
-TBC(cleaned)_COMMIT 74afa84  by Xfurry (commiter Schmoozerd) " [s1440] Implement spell effects for Kalecgos "
-   9.3% sql/updates/
-   7.2% sql/
-  77.3% src/game/
-   6.0% src/shared/
-
-TBC(cleaned)_COMMIT b984ea8  by Schmoozerd (commiter Schmoozerd) " [s1441] Add support for db scripts assigned to gossip menus "
-   8.7% sql/updates/
-   6.5% sql/
-  80.8% src/game/
-   3.9% src/shared/
-
 TBC(cleaned)_COMMIT d6eabd4  by Schmoozerd (commiter Schmoozerd) " [s1442] Add new flag_extra NO_TALKTO_CREDIT "
   81.0% src/game/
   18.9% src/shared/
