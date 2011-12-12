@@ -126,10 +126,6 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
-TBC(cleaned)_COMMIT df9fe46  by Schmoozerd (commiter Schmoozerd) " [s1443] Comment structure of script storage "
-  80.4% src/game/
-  19.5% src/shared/
-
 TBC(cleaned)_COMMIT 73be423  by mns (commiter Schmoozerd) " [s1444] Update forgotten comment in mangosd.conf.dist.in "
   73.0% src/mangosd/
   26.9% src/shared/
