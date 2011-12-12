@@ -126,21 +126,15 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT 2234d57  by Schmoozerd (commiter Schmoozerd) " [s1445] Fix sent level in trainer spell list - this fixes problems especially with druid trainers "
   97.1% src/game/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT 51f042e  by Schmoozerd (commiter Schmoozerd) " [s1446] Enable script command MOVE_TO to also change the orientation "
   26.0% doc/
   67.9% src/game/
    6.0% src/shared/
-
-TBC(cleaned)_COMMIT 067bf8d  by evil-at-wow (commiter Schmoozerd) " [s1447] Do not log item moves in guild bank log "
-  95.1% src/game/
-   4.8% src/shared/
-
-TBC(cleaned)_COMMIT 9a8719f  by Schmoozerd (commiter Schmoozerd) " [s1448] Fix vendor items sold by vendor_template "
-  51.3% src/game/
-  48.6% src/shared/
 
 TBC(cleaned)_COMMIT 8237f4b  by Reamer (commiter Schmoozerd) " [s1449] Do not overwrite channel spells with other channel spells "
   75.1% src/game/
