@@ -126,17 +126,6 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
-TBC(cleaned)_COMMIT 532c849  by stfx (commiter Schmoozerd) " [s1434] Totem/Relic swapping should not trigger GCD "
-  84.6% src/game/
-  15.3% src/shared/
-
-TBC(cleaned)_COMMIT e2ee9ec  by Schmoozerd (commiter Schmoozerd) " [s1435] Change use of ScriptLibrary OnGOUse return value in GO::Use "
-  97.3% src/game/
-
-TBC(cleaned)_COMMIT 1d010f4  by Schmoozerd (commiter Schmoozerd) " [s1436] Add missing pointer check for spell 45989. "
-  55.5% src/game/
-  44.4% src/shared/
-
 TBC(cleaned)_COMMIT 294cfb6  by Schmoozerd (commiter Schmoozerd) " [s1437] Implement Condition CONDITION_SKILL_BELOW to be able to check if a player has a skill lower than a given value "
   90.4% src/game/
    9.5% src/shared/
@@ -199,10 +188,6 @@ TBC(cleaned)_COMMIT 14a0313  by Vinolentus (commiter Schmoozerd) " [s1450] Fix p
 
 TBC(cleaned)_COMMIT 9012364  by Funkybit (commiter Schmoozerd) " [s1451] Fix spell 32770 not increasing healing if not casted onto self. "
   97.0% src/game/
-
-TBC(cleaned)_COMMIT 1a803ee  by stfx (commiter Schmoozerd) " [s1452] Revert "[s1434] Totem/Relic swapping should not trigger GCD" "
-  84.6% src/game/
-  15.3% src/shared/
 
 TBC(cleaned)_COMMIT 1b0085c  by VladimirMangos (commiter Schmoozerd) " [s1453] Remove one obsolete variable and fix a comment "
   78.7% src/game/
