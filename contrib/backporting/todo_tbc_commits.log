@@ -126,10 +126,6 @@ TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecti
   89.7% src/game/
   10.2% src/shared/
 
-TBC(cleaned)_COMMIT d6eabd4  by Schmoozerd (commiter Schmoozerd) " [s1442] Add new flag_extra NO_TALKTO_CREDIT "
-  81.0% src/game/
-  18.9% src/shared/
-
 TBC(cleaned)_COMMIT df9fe46  by Schmoozerd (commiter Schmoozerd) " [s1443] Comment structure of script storage "
   80.4% src/game/
   19.5% src/shared/
