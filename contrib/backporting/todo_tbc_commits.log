@@ -136,10 +136,6 @@ TBC(cleaned)_COMMIT 51f042e  by Schmoozerd (commiter Schmoozerd) " [s1446] Enabl
   67.9% src/game/
    6.0% src/shared/
 
-TBC(cleaned)_COMMIT 8237f4b  by Reamer (commiter Schmoozerd) " [s1449] Do not overwrite channel spells with other channel spells "
-  75.1% src/game/
-  24.8% src/shared/
-
 TBC(cleaned)_COMMIT 14a0313  by Vinolentus (commiter Schmoozerd) " [s1450] Fix possible SQL injection for .tele add command "
   92.2% src/game/
    7.7% src/shared/
