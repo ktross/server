@@ -136,12 +136,9 @@ TBC(cleaned)_COMMIT 51f042e  by Schmoozerd (commiter Schmoozerd) " [s1446] Enabl
   67.9% src/game/
    6.0% src/shared/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT 9012364  by Funkybit (commiter Schmoozerd) " [s1451] Fix spell 32770 not increasing healing if not casted onto self. "
   97.0% src/game/
-
-TBC(cleaned)_COMMIT 1b0085c  by VladimirMangos (commiter Schmoozerd) " [s1453] Remove one obsolete variable and fix a comment "
-  78.7% src/game/
-  21.2% src/shared/
 
 TBC(cleaned)_COMMIT 915b7e7  by Klark20 (commiter Schmoozerd) " [s1454] Fix SCRIPT_COMMAND_SET_FACTION to check for expected Faction Templates and not factions "
   91.3% src/game/
