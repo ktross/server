@@ -150,12 +150,9 @@ TBC(cleaned)_COMMIT 084ae8e  by rsa (commiter Schmoozerd) " [s1465] Fix spell ta
   91.6% src/game/
    8.3% src/shared/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT 77fca41  by pasdVn (commiter Schmoozerd) " [s1467] Improve handling of target mode TARGET_RANDOM_NEARBY_DEST "
   97.2% src/game/
-
-TBC(cleaned)_COMMIT 0e3bc21  by Schmoozerd (commiter Schmoozerd) " [s1468] Fix faction check for EventAI command ACTION_T_SET_FACTION to also check for faction template. "
-  69.2% src/game/
-  30.7% src/shared/
 
 TBC(cleaned)_COMMIT c239e54  by DaC (commiter Schmoozerd) " [s1469] Fix battleground kick for inactive players. Close pull request #29 "
   82.8% src/game/
