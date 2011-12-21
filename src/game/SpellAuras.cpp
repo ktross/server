@@ -760,6 +760,8 @@ void Aura::TriggerSpell()
     SpellEntry const* auraSpellInfo = GetSpellProto();
     uint32 auraId = auraSpellInfo->Id;
     Unit* target = GetTarget();
+    Unit* triggerCaster = triggerTarget;
+    WorldObject* triggerTargetObject = NULL;
 
     // specific code for cases with no trigger spell provided in field
     if (triggeredSpellInfo == NULL)
@@ -1138,24 +1140,47 @@ void Aura::TriggerSpell()
         // Reget trigger spell proto
         triggeredSpellInfo = sSpellStore.LookupEntry(trigger_spell_id);
     }
-    else
+    else                                                    // initial triggeredSpellInfo != NULL
     {
+        // for channeled spell cast applied from aura owner to channel target (persistent aura affects already applied to true target)
+        // come periodic casts applied to targets, so need seelct proper caster (ex. 15790)
+        if (IsChanneledSpell(GetSpellProto()) && GetSpellProto()->Effect[GetEffIndex()] != SPELL_EFFECT_PERSISTENT_AREA_AURA)
+        {
+            // interesting 2 cases: periodic aura at caster of channeled spell
+            if (target->GetObjectGuid() == casterGUID)
+            {
+                triggerCaster = target;
+
+                if (WorldObject* channelTarget = target->GetMap()->GetWorldObject(target->GetChannelObjectGuid()))
+                {
+                    if (channelTarget->isType(TYPEMASK_UNIT))
+                        triggerTarget = (Unit*)channelTarget;
+                    else
+                        triggerTargetObject = channelTarget;
+                }
+            }
+            // or periodic aura at caster channel target
+            else if (Unit* caster = GetCaster())
+            {
+                if (target->GetObjectGuid() == caster->GetChannelObjectGuid())
+                {
+                    triggerCaster = caster;
+                    triggerTarget = target;
+                }
+            }
+        }
+
         // Spell exist but require custom code
         switch (auraId)
         {
             case 9347:                                      // Mortal Strike
             {
+                if (target->GetTypeId() != TYPEID_UNIT)
+                    return;
                 // expected selection current fight target
-                triggerTarget = GetTarget()->getVictim();
+                triggerTarget = ((Creature*)target)->SelectAttackingTarget(ATTACKING_TARGET_TOPAGGRO, 0, triggeredSpellInfo);
                 if (!triggerTarget)
                     return;
-
-                // avoid triggering for far target
-                SpellRangeEntry const* srange = sSpellRangeStore.LookupEntry(triggeredSpellInfo->rangeIndex);
-                float max_range = GetSpellMaxRange(srange);
-                if (!triggerTarget->IsWithinDist(GetTarget(), max_range))
-                    return;
-
                 break;
             }
             case 1010:                                      // Curse of Idiocy
@@ -1197,37 +1222,6 @@ void Aura::TriggerSpell()
             {
                 triggerTarget->CastCustomSpell(triggerTarget, trigger_spell_id, &m_modifier.m_amount, NULL, NULL, true, NULL, this);
                 return;
-            }
-        }
-    }
-
-    Unit* triggerCaster = triggerTarget;
-    WorldObject* triggerTargetObject = NULL;
-
-    // for channeled spell cast applied from aura owner to channel target (persistent aura affects already applied to true target)
-    // come periodic casts applied to targets, so need seelct proper caster (ex. 15790)
-    if (IsChanneledSpell(GetSpellProto()) && GetSpellProto()->Effect[GetEffIndex()] != SPELL_EFFECT_PERSISTENT_AREA_AURA)
-    {
-        // interesting 2 cases: periodic aura at caster of channeled spell
-        if (target->GetObjectGuid() == casterGUID)
-        {
-            triggerCaster = target;
-
-            if (WorldObject* channelTarget = target->GetMap()->GetWorldObject(target->GetChannelObjectGuid()))
-            {
-                if (channelTarget->isType(TYPEMASK_UNIT))
-                    triggerTarget = (Unit*)channelTarget;
-                else
-                    triggerTargetObject = channelTarget;
-            }
-        }
-        // or periodic aura at caster channel target
-        else if (Unit* caster = GetCaster())
-        {
-            if (target->GetObjectGuid() == caster->GetChannelObjectGuid())
-            {
-                triggerCaster = caster;
-                triggerTarget = target;
             }
         }
     }

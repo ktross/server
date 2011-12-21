@@ -154,20 +154,6 @@ Need check for classic ?
 TBC(cleaned)_COMMIT 77fca41  by pasdVn (commiter Schmoozerd) " [s1467] Improve handling of target mode TARGET_RANDOM_NEARBY_DEST "
   97.2% src/game/
 
-TBC(cleaned)_COMMIT c239e54  by DaC (commiter Schmoozerd) " [s1469] Fix battleground kick for inactive players. Close pull request #29 "
-  82.8% src/game/
-  17.1% src/shared/
-
-TBC(cleaned)_COMMIT e3c9688  by Salja (commiter Schmoozerd) " [s1470] Edit src/game/SpellAuras.cpp - Fix spell name comment "
-  17.6% src/game/
-  82.3% src/shared/
-
-TBC(cleaned)_COMMIT a91b5c4  by NeatElves (commiter Schmoozerd) " [s1471] Implement GOSSIP_OPTION_MAILBOX "
-  98.6% src/game/
-
-TBC(cleaned)_COMMIT de8a518  by Schmoozerd (commiter Schmoozerd) " [s1472] Reorder caster/target selection for normal case in Aura::TriggerSpell "
-  98.1% src/game/
-
 TBC(cleaned)_COMMIT 4ded8a1  by Klark20 (commiter Schmoozerd) " [s1473] Enable gossip_menu_option scripts for all gossip options "
   95.0% src/game/
    4.9% src/shared/
