@@ -140,10 +140,6 @@ Need check for classic ?
 TBC(cleaned)_COMMIT 9012364  by Funkybit (commiter Schmoozerd) " [s1451] Fix spell 32770 not increasing healing if not casted onto self. "
   97.0% src/game/
 
-TBC(cleaned)_COMMIT 1e74750  by virusav (commiter Schmoozerd) " [s1457] Remove check for quest_template if QuestSort and SkillId match "
-  95.6% src/game/
-   4.3% src/shared/
-
 TBC(cleaned)_COMMIT 60e84b5  by darkstalker (commiter Schmoozerd) " [s1458] Add group looting rules for gameobjects (chests) "
   99.4% src/game/
 
