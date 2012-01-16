@@ -140,20 +140,6 @@ Need check for classic ?
 TBC(cleaned)_COMMIT 9012364  by Funkybit (commiter Schmoozerd) " [s1451] Fix spell 32770 not increasing healing if not casted onto self. "
   97.0% src/game/
 
-TBC(cleaned)_COMMIT f9a3dc9  by Schmoozerd (commiter Schmoozerd) " [s1455] Update Copyright notice to year 2012 "
-   3.2% contrib/vmap_extractor_v3/vmapextract/
-   6.5% src/framework/
-   3.6% src/game/vmap/
-  59.2% src/game/
-   6.2% src/shared/Database/
-   6.8% src/shared/
-   7.9% src/
-
-TBC(cleaned)_COMMIT bf5142a  by virusav (commiter Schmoozerd) " [s1456] Fix table layout for `creature_linking_template` "
-  34.8% sql/updates/
-  55.6% sql/
-   9.6% src/shared/
-
 TBC(cleaned)_COMMIT 1e74750  by virusav (commiter Schmoozerd) " [s1457] Remove check for quest_template if QuestSort and SkillId match "
   95.6% src/game/
    4.3% src/shared/
