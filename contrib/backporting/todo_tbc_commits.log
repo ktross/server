@@ -144,10 +144,6 @@ TBC(cleaned)_COMMIT 3fb8a2f  by Schmoozerd (commiter Schmoozerd) " [s1459] Ensur
   96.4% src/game/
    3.5% src/shared/
 
-TBC(cleaned)_COMMIT 71fc002  by Schmoozerd (commiter Schmoozerd) " [s1461] Inform AI function of original caster in some cases "
-  96.9% src/game/
-   3.0% src/shared/
-
 TBC(cleaned)_COMMIT 794cbe8  by faramir118 (commiter Schmoozerd) " [s1462] Fix some combat behaviour of NPC-Pets "
   96.8% src/game/
    3.1% src/shared/
