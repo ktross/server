@@ -140,13 +140,10 @@ Need check for classic ?
 TBC(cleaned)_COMMIT 9012364  by Funkybit (commiter Schmoozerd) " [s1451] Fix spell 32770 not increasing healing if not casted onto self. "
   97.0% src/game/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT 3fb8a2f  by Schmoozerd (commiter Schmoozerd) " [s1459] Ensure that db saved values and values in memory are in sync "
   96.4% src/game/
    3.5% src/shared/
-
-TBC(cleaned)_COMMIT 794cbe8  by faramir118 (commiter Schmoozerd) " [s1462] Fix some combat behaviour of NPC-Pets "
-  96.8% src/game/
-   3.1% src/shared/
 
 TBC(cleaned)_COMMIT f3752dd  by Xfurry (commiter Schmoozerd) " [s1463] Implement spells 32300, 32301 "
   92.1% src/game/
