@@ -133,11 +133,6 @@ TBC(cleaned)_COMMIT 9012364  by Funkybit (commiter Schmoozerd) " [s1451] Fix spe
   97.0% src/game/
 
 Need check for classic ?
-TBC(cleaned)_COMMIT 3fb8a2f  by Schmoozerd (commiter Schmoozerd) " [s1459] Ensure that db saved values and values in memory are in sync "
-  96.4% src/game/
-   3.5% src/shared/
-
-Need check for classic ?
 TBC(cleaned)_COMMIT 084ae8e  by rsa (commiter Schmoozerd) " [s1465] Fix spell targeting for pet spells with target-type (0,0) "
   91.6% src/game/
    8.3% src/shared/
