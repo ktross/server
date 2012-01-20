@@ -145,21 +145,10 @@ TBC(cleaned)_COMMIT 3fb8a2f  by Schmoozerd (commiter Schmoozerd) " [s1459] Ensur
   96.4% src/game/
    3.5% src/shared/
 
-TBC(cleaned)_COMMIT f3752dd  by Xfurry (commiter Schmoozerd) " [s1463] Implement spells 32300, 32301 "
-  92.1% src/game/
-   7.8% src/shared/
-
-TBC(cleaned)_COMMIT 28eee6f  by Schmoozerd (commiter Schmoozerd) " [s1464] Fix missing cast from changes of 11880 "
-  79.5% src/game/
-  20.4% src/shared/
-
+Need check for classic ?
 TBC(cleaned)_COMMIT 084ae8e  by rsa (commiter Schmoozerd) " [s1465] Fix spell targeting for pet spells with target-type (0,0) "
   91.6% src/game/
    8.3% src/shared/
-
-TBC(cleaned)_COMMIT e098db9  by Schmoozerd (commiter Schmoozerd) " [s1466] Implement FLAG_DESPAWN_ON_EVADE for creature_linking. "
-  88.0% src/game/
-  11.9% src/shared/
 
 TBC(cleaned)_COMMIT 77fca41  by pasdVn (commiter Schmoozerd) " [s1467] Improve handling of target mode TARGET_RANDOM_NEARBY_DEST "
   97.2% src/game/
