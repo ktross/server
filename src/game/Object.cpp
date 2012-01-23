@@ -1064,7 +1064,11 @@ bool WorldObject::IsInRange3d(float x, float y, float z, float minRange, float m
 
 float WorldObject::GetAngle(const WorldObject* obj) const
 {
-    if (!obj) return 0;
+    if (!obj)
+        return 0.0f;
+
+    MANGOS_ASSERT(obj != this);
+
     return GetAngle(obj->GetPositionX(), obj->GetPositionY());
 }
 
@@ -1074,7 +1078,7 @@ float WorldObject::GetAngle(const float x, const float y) const
     float dx = x - GetPositionX();
     float dy = y - GetPositionY();
 
-    float ang = atan2(dy, dx);
+    float ang = atan2(dy, dx);                              // returns value between -Pi..Pi
     ang = (ang >= 0) ? ang : 2 * M_PI_F + ang;
     return ang;
 }
@@ -1450,7 +1454,7 @@ namespace MaNGOS
     {
         public:
             NearUsedPosDo(WorldObject const& obj, WorldObject const* searcher, float absAngle, ObjectPosSelector& selector)
-                : i_object(obj), i_searcher(searcher), i_absAngle(absAngle), i_selector(selector) {}
+                : i_object(obj), i_searcher(searcher), i_absAngle(MapManager::NormalizeOrientation(absAngle)), i_selector(selector) {}
 
             void operator()(Corpse*) const {}
             void operator()(DynamicObject*) const {}
@@ -1504,10 +1508,10 @@ namespace MaNGOS
 
                 float angle = i_object.GetAngle(u) - i_absAngle;
 
-                // move angle to range -pi ... +pi
-                while (angle > M_PI_F)
+                // move angle to range -pi ... +pi, range before is -2Pi..2Pi
+                if (angle > M_PI_F)
                     angle -= 2.0f * M_PI_F;
-                while (angle < -M_PI_F)
+                else if (angle < -M_PI_F)
                     angle += 2.0f * M_PI_F;
 
                 i_selector.AddUsedArea(u->GetObjectBoundingRadius(), angle, dist2d);
