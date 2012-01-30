@@ -1663,10 +1663,14 @@ bool GameObject::IsHostileTo(Unit const* unit) const
     {
         if (tester_faction->faction)
         {
+            // forced reaction
+            if (ReputationRank const* force = ((Player*)unit)->GetReputationMgr().GetForcedRankIfAny(tester_faction))
+                return *force <= REP_HOSTILE;
+
             // apply reputation state
             FactionEntry const* raw_tester_faction = sFactionStore.LookupEntry(tester_faction->faction);
-            if (raw_tester_faction && raw_tester_faction->reputationListID >=0 )
-                return ((Player const*)unit)->GetReputationMgr().GetRank(raw_tester_faction, true) <= REP_HOSTILE;
+            if (raw_tester_faction && raw_tester_faction->reputationListID >= 0)
+                return ((Player const*)unit)->GetReputationMgr().GetRank(raw_tester_faction) <= REP_HOSTILE;
         }
     }
 
@@ -1702,10 +1706,14 @@ bool GameObject::IsFriendlyTo(Unit const* unit) const
     {
         if (tester_faction->faction)
         {
+            // forced reaction
+            if (ReputationRank const* force =((Player*)unit)->GetReputationMgr().GetForcedRankIfAny(tester_faction))
+                return *force >= REP_FRIENDLY;
+
             // apply reputation state
             if (FactionEntry const* raw_tester_faction = sFactionStore.LookupEntry(tester_faction->faction))
-                if (raw_tester_faction->reputationListID >=0 )
-                    return ((Player const*)unit)->GetReputationMgr().GetRank(raw_tester_faction, true) >= REP_FRIENDLY;
+                if (raw_tester_faction->reputationListID >= 0)
+                    return ((Player const*)unit)->GetReputationMgr().GetRank(raw_tester_faction) >= REP_FRIENDLY;
         }
     }
 
