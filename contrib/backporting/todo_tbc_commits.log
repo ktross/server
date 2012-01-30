@@ -154,14 +154,6 @@ Need check for classic ?
 TBC(cleaned)_COMMIT 77fca41  by pasdVn (commiter Schmoozerd) " [s1467] Improve handling of target mode TARGET_RANDOM_NEARBY_DEST "
   97.2% src/game/
 
-TBC(cleaned)_COMMIT 4ded8a1  by Klark20 (commiter Schmoozerd) " [s1473] Enable gossip_menu_option scripts for all gossip options "
-  95.0% src/game/
-   4.9% src/shared/
-
-TBC(cleaned)_COMMIT 9d86e81  by Salja (commiter Schmoozerd) " [s1474] fix typo in comment "
-  69.7% src/game/
-  30.2% src/shared/
-
 TBC(cleaned)_COMMIT 41f4d85  by Salja (commiter Schmoozerd) " [s1475] Revert "[s1470] Edit src/game/SpellAuras.cpp - Fix spell name comment" "
   17.6% src/game/
   82.3% src/shared/
