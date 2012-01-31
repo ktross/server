@@ -269,32 +269,26 @@ TBC(cleaned)_COMMIT 872a7c5  by Schmoozerd (commiter Schmoozerd) " [s1500] Impro
   83.1% contrib/extractor_binary/
   16.8% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT ee0c1c5  by Schmoozerd (commiter Schmoozerd) " [s1501] Add ASSERT helper function to print entry and guid info "
   93.7% src/game/
    6.2% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT dd9e41e  by SilverIce (commiter Schmoozerd) " [s1502] simplify HandleMmapTestArea code a bit "
   89.5% src/game/
   10.4% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 01d036f  by SilverIce (commiter Schmoozerd) " [s1503] fix MoveMapGen vc90 build problems (add missing project dependencies) thx Thermaltake "
   80.6% contrib/mmap/win/
   19.3% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT f9f9876  by Schmoozerd (commiter Schmoozerd) " [s1504] Let Waypoints fly. Thanks to qsa for the idea "
   30.0% sql/updates/
   37.7% sql/
   32.2% src/shared/
-
-TBC(cleaned)_COMMIT 57decc4  by Schmoozerd (commiter Schmoozerd) " [s1505] Fix Player::GetNPCIfCanInteractWith to consider forced reactions "
-  97.4% src/game/
-
-TBC(cleaned)_COMMIT 73992a9  by Schmoozerd (commiter Schmoozerd) " [s1506] Really fix [1505]. This basicly reverts commit 1505 "
-  98.1% src/game/
-
-TBC(cleaned)_COMMIT f0df8d6  by rsa (commiter Schmoozerd) " [s1507] Fix copy&paste error from last commit - otherwise server will crash with first loaded player pet "
-  89.4% src/game/
-  10.5% src/shared/
 
 TBC(cleaned)_COMMIT be70379  by Velvet (commiter Schmoozerd) " fix healing stream and mana spring totem, closes #20 "
   86.8% src/game/
