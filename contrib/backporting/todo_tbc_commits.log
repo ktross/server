@@ -154,6 +154,7 @@ Need check for classic ?
 TBC(cleaned)_COMMIT 77fca41  by pasdVn (commiter Schmoozerd) " [s1467] Improve handling of target mode TARGET_RANDOM_NEARBY_DEST "
   97.2% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 3630caa  by faramir118 (commiter Schmoozerd) " [s1480] Import Recast Navigation "
    3.5% dep/recastnavigation/Detour/
    3.1% dep/recastnavigation/Recast/
@@ -168,6 +169,7 @@ TBC(cleaned)_COMMIT 3630caa  by faramir118 (commiter Schmoozerd) " [s1480] Impor
    4.2% dep/recastnavigation/RecastDemo/Contrib/
    5.1% dep/recastnavigation/RecastDemo/Source/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 6516785  by faramir118 (commiter Schmoozerd) " [s1481] Add MoveMapGen tool to generate MMaps "
   71.3% contrib/mmap/src/
    8.2% contrib/mmap/win/VC100/
@@ -175,12 +177,14 @@ TBC(cleaned)_COMMIT 6516785  by faramir118 (commiter Schmoozerd) " [s1481] Add M
    7.8% contrib/mmap/win/
    7.9% contrib/mmap/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 6ff140e  by faramir118 (commiter Schmoozerd) " [s1482] Fix Liquid Extraction and better hole support "
   12.0% contrib/extractor/loadlib/
   79.5% contrib/extractor/
    3.7% src/game/
    4.5% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT e491993  by faramir118 (commiter Schmoozerd) " [s1483] Add recastnavigation to dependencies "
   13.7% dep/lib/win32_debug/
   13.7% dep/lib/win32_release/
@@ -189,6 +193,7 @@ TBC(cleaned)_COMMIT e491993  by faramir118 (commiter Schmoozerd) " [s1483] Add r
   17.2% dep/
   27.5% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 7e12b83  by sixsixnine (commiter Schmoozerd) " [s1484] Ignore RecastDemo/Build directory with git "
   39.7% src/shared/
 
@@ -198,59 +203,68 @@ TBC(cleaned)_COMMIT 3c12007  by sixsixnine (commiter Schmoozerd) " [s1485] Add f
   20.1% win/VC90/
   21.1% win/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 57176ea  by faramir118 (commiter Schmoozerd) " [s1486] Add a pathfinding log-filter "
   97.6% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 6df9d0d  by sixsixnine (commiter Schmoozerd) " [s1487] Implement Pathfinder class to handle the actual pathfinding "
   99.2% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT d04ea87  by faramir118 (commiter Schmoozerd) " [s1488] Implement loading for MMap Generator "
   63.4% src/game/vmap/
   32.9% src/game/
    3.6% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 2019b3b  by sixsixnine (commiter Schmoozerd) " [s1489] Use mmaps for Spline Movement "
   53.7% src/game/movement/
   44.2% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT a24b2dc  by sixsixnine (commiter Schmoozerd) " [s1490] Use mmaps for MovementGenerators "
   99.8% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 78f73b0  by faramir118 (commiter Schmoozerd) " [s1491] Add commands for MMaps "
   99.4% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT a955d46  by Schmoozerd (commiter Schmoozerd) " [s1492] Add new scripts and windows binary files for extraction "
   99.9% contrib/extractor_binary/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 370db2f  by Schmoozerd (commiter Schmoozerd) " [s1493] Update ad.exe "
   99.9% contrib/extractor/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 2507b70  by Schmoozerd (commiter Schmoozerd) " [s1494] Remove old binaries for extraction "
   99.8% contrib/vmap_extract_assembler_bin/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 48e1d61  by faramir118 (commiter Schmoozerd) " [s1495] Increment map version magic. You have to re-extract maps, vmaps and mmaps "
   28.3% contrib/extractor/
   30.7% contrib/mmap/src/
   24.0% src/game/
   16.8% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT f851680  by sixsixnine (commiter Schmoozerd) " [s1496] Let creatures evade when the enemy is unreachable "
   95.7% src/game/
    4.2% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT a03ca69  by faramir118 (commiter Schmoozerd) " [s1497] Improve GetNearPoint "
   91.0% src/game/
    8.9% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 64b9485  by Salja (commiter Schmoozerd) " [s1498] Update extractors for MaNGOS-One. "
   19.9% contrib/extractor/
   77.3% contrib/extractor_binary/
 
-TBC(cleaned)_COMMIT 256a6a1  by stfx (commiter Schmoozerd) " [s1499] Sync default range for Say and TextEmote "
-  39.6% src/game/
-  36.2% src/mangosd/
-  24.1% src/shared/
-
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 872a7c5  by Schmoozerd (commiter Schmoozerd) " [s1500] Improve MoveMapGen script to create mmaps directory if not exists - thanks to Bobi for pointing "
   83.1% contrib/extractor_binary/
   16.8% src/shared/
