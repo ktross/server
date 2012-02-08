@@ -290,9 +290,6 @@ TBC(cleaned)_COMMIT f9f9876  by Schmoozerd (commiter Schmoozerd) " [s1504] Let W
   37.7% sql/
   32.2% src/shared/
 
-TBC(cleaned)_COMMIT 97d9fd6  by Schmoozerd (commiter Schmoozerd) " [s1509] Improve interaction checks related to quests "
-  98.8% src/game/
-
 TBC(cleaned)_COMMIT 2f81cde  by Schmoozerd (commiter Schmoozerd) " [s1510] Fix typo, also use shiny wrapper for ObjectGuid.GetString. Thanks to tyrnon for pointing "
   98.1% src/game/
 
