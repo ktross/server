@@ -290,10 +290,6 @@ TBC(cleaned)_COMMIT f9f9876  by Schmoozerd (commiter Schmoozerd) " [s1504] Let W
   37.7% sql/
   32.2% src/shared/
 
-TBC(cleaned)_COMMIT be70379  by Velvet (commiter Schmoozerd) " fix healing stream and mana spring totem, closes #20 "
-  86.8% src/game/
-  13.1% src/shared/
-
 TBC(cleaned)_COMMIT 97d9fd6  by Schmoozerd (commiter Schmoozerd) " [s1509] Improve interaction checks related to quests "
   98.8% src/game/
 
