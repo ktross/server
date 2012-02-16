@@ -290,10 +290,6 @@ TBC(cleaned)_COMMIT f9f9876  by Schmoozerd (commiter Schmoozerd) " [s1504] Let W
   37.7% sql/
   32.2% src/shared/
 
-TBC(cleaned)_COMMIT 8b81dfe  by Nighoo (commiter Schmoozerd) " [s1511] add dummy aura 10848, from previous commit "
-  33.3% src/game/
-  66.6% src/shared/
-
 TBC(cleaned)_COMMIT 46bfa9c  by Schmoozerd (commiter Schmoozerd) " [s1512] Implement spell 21056 "
   89.4% src/game/
   10.5% src/shared/
