@@ -290,16 +290,10 @@ TBC(cleaned)_COMMIT f9f9876  by Schmoozerd (commiter Schmoozerd) " [s1504] Let W
   37.7% sql/
   32.2% src/shared/
 
-TBC(cleaned)_COMMIT a1daf62  by stfx (commiter Schmoozerd) " Uncomment a needed change of 2654c01. "
- 100.0% src/game/
-
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 17fd0b7  by faramir118 (commiter Schmoozerd) " [s1516] fix compile, correct path in Detour project "
   91.6% dep/recastnavigation/Detour/win/VC90/
    8.3% src/shared/
-
-TBC(cleaned)_COMMIT 76497c3  by Schmoozerd (commiter Schmoozerd) " [s1517] Fix Pet behaviour for environmental damage "
-  67.6% src/game/
-  32.3% src/shared/
 
 TBC(cleaned)_COMMIT 1ff3fd1  by Den (commiter Schmoozerd) " [s1518] Remove some obsolete defines "
   69.2% src/game/
