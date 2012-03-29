@@ -295,17 +295,10 @@ TBC(cleaned)_COMMIT 17fd0b7  by faramir118 (commiter Schmoozerd) " [s1516] fix c
   91.6% dep/recastnavigation/Detour/win/VC90/
    8.3% src/shared/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT f3ae128  by Reamer (commiter Schmoozerd) " [s1520] Show Combat log entries for heals from NPCs "
   73.0% src/game/
   26.9% src/shared/
-
-TBC(cleaned)_COMMIT 766d9ff  by Klark20 (commiter Schmoozerd) " [s1521] Fix spell of Orb of Translocation, spells 25140 29128 "
-  81.3% src/game/
-  18.6% src/shared/
-
-TBC(cleaned)_COMMIT 7313130  by MacWarriors (commiter Schmoozerd) " [s1522] Check display Id for .modify morph command "
-  85.2% src/game/
-  14.7% src/shared/
 
 TBC(cleaned)_COMMIT 525714c  by Nighoo (commiter Schmoozerd) " [s1523] Add git_id (*nix version) to .gitignore "
   11.1% contrib/git_id/
