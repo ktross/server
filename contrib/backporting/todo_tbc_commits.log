@@ -300,10 +300,6 @@ TBC(cleaned)_COMMIT f3ae128  by Reamer (commiter Schmoozerd) " [s1520] Show Comb
   73.0% src/game/
   26.9% src/shared/
 
-TBC(cleaned)_COMMIT f9830e3  by Schmoozerd (commiter Schmoozerd) " [s1525] Replace use of HashMapFolder.Find<Player> with ObjectAccessor::FindPlayer wrapper "
-  85.8% src/game/
-  14.1% src/shared/
-
 TBC(cleaned)_COMMIT b2d6f62  by Schmoozerd (commiter Schmoozerd) " [s1526] Make binary_extracting scripts compatible to bourne shell. Thanks to nighoo for pointing "
   94.3% contrib/extractor_binary/
    5.6% src/shared/
