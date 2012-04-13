@@ -340,10 +340,6 @@ TBC(cleaned)_COMMIT 3cec295  by Reamer (commiter Schmoozerd) " [s1539] Do not ca
 TBC(cleaned)_COMMIT 8bf2749  by Nighoo (commiter Schmoozerd) " add missing part of recent commit "
  100.0% src/game/
 
-TBC(cleaned)_COMMIT 6779ff9  by Schmoozerd (commiter Schmoozerd) " [s1542] Aura 10848 should not cause UNIT_AURAFLAG_ALIVE_INVISIBLE "
-  33.3% src/game/
-  66.6% src/shared/
-
 TBC(cleaned)_COMMIT efc99fb  by stfx (commiter Schmoozerd) " [s1543] Implement spell effect 131 - SPELL_EFFECT_PLAY_SOUND "
   96.1% src/game/
    3.8% src/shared/
