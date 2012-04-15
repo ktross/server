@@ -152,6 +152,12 @@ void GameEventMgr::LoadFromDB()
                 continue;
             }
 
+            if (pGameEvent.occurence < pGameEvent.length)   // occurence < length is useless. This also asserts that occurence > 0!
+            {
+                sLog.outErrorDb("`game_event` game event id (%i) has occurence %u  < length %u and can't be used.", event_id, pGameEvent.occurence, pGameEvent.length);
+                continue;
+            }
+
             pGameEvent.description  = fields[6].GetCppString();
 
         }
