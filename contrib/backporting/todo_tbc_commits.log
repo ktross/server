@@ -352,10 +352,6 @@ TBC(cleaned)_COMMIT cec1e99  by Schmoozerd (commiter Schmoozerd) " [s1545] Fix l
   29.1% src/game/
   70.8% src/shared/
 
-TBC(cleaned)_COMMIT 901243b  by Schmoozerd (commiter Schmoozerd) " [s1546] Add support for Creature List of Entry in Range grid searcher "
-  93.4% src/game/
-   6.5% src/shared/
-
 TBC(cleaned)_COMMIT 80e3d27  by Schmoozerd (commiter Schmoozerd) " [s1547] Add additional check for game_events, invalid occurence "
   88.1% src/game/
   11.8% src/shared/
