@@ -334,10 +334,6 @@ TBC(cleaned)_COMMIT 82a95e3  by Xfurry (commiter Schmoozerd) " [s1533] Improve S
   25.5% src/game/
    4.6% src/shared/
 
-TBC(cleaned)_COMMIT 5b217d4  by michalpolko (commiter Schmoozerd) " [s1536] Implement spell 27819, thanks to stfx for research "
-  92.2% src/game/
-   7.7% src/shared/
-
 TBC(cleaned)_COMMIT 38d9b8b  by stfx (commiter Schmoozerd) " [s1537] Unify loot related code and fix engrish. "
   93.8% src/game/
    6.1% src/shared/
