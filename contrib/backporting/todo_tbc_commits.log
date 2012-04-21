@@ -311,32 +311,28 @@ TBC(cleaned)_COMMIT c9a7753  by Schmoozerd (commiter Schmoozerd) " [s1528] Rewri
   13.2% sql/updates/
   79.7% src/game/
 
+Check wehn [s1528] is done
 TBC(cleaned)_COMMIT b315f74  by Schmoozerd (commiter Schmoozerd) " [s1530] Add option to NearestCreatureEntryWithLiveState.. GridSearcher to be able to also search for both alive and corpse creatures "
   94.6% src/game/
    5.3% src/shared/
 
+Check wehn [s1528] is done
 TBC(cleaned)_COMMIT 0393a72  by Schmoozerd (commiter Schmoozerd) " [s1531] Fix non-pch compile, thanks to NeatElves for pointing "
   48.6% src/game/
   51.3% src/shared/
 
+Check wehn [s1528] is done
 TBC(cleaned)_COMMIT ea2d2d9  by stfx (commiter Schmoozerd) " [s1532] Some whitespace cleanup in SpellAuras (around Shape-Shifting) "
   56.5% src/game/
   43.4% src/shared/
 
+Check wehn [s1528] is done
 TBC(cleaned)_COMMIT 82a95e3  by Xfurry (commiter Schmoozerd) " [s1533] Improve SCRIPT_COMMAND_MOVE_TO "
    3.8% doc/
   62.8% sql/updates/
    3.0% sql/
   25.5% src/game/
    4.6% src/shared/
-
-TBC(cleaned)_COMMIT 0fac7b7  by Nighoo (commiter Schmoozerd) " [s1534] delete wrong backported sql file "
-  96.1% sql/updates/
-   3.8% src/shared/
-
-TBC(cleaned)_COMMIT b3e290c  by stfx (commiter Schmoozerd) " [s1535] Check group id of group loot timer when timer is started. Close pull request #39 "
-  88.6% src/game/
-  11.3% src/shared/
 
 TBC(cleaned)_COMMIT 5b217d4  by michalpolko (commiter Schmoozerd) " [s1536] Implement spell 27819, thanks to stfx for research "
   92.2% src/game/
