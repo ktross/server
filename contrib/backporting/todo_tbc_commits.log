@@ -334,10 +334,6 @@ TBC(cleaned)_COMMIT 82a95e3  by Xfurry (commiter Schmoozerd) " [s1533] Improve S
   25.5% src/game/
    4.6% src/shared/
 
-TBC(cleaned)_COMMIT 38d9b8b  by stfx (commiter Schmoozerd) " [s1537] Unify loot related code and fix engrish. "
-  93.8% src/game/
-   6.1% src/shared/
-
 TBC(cleaned)_COMMIT c8c80c9  by stfx (commiter Schmoozerd) " [s1538] Add support to send the anim for SMSG_TAMEOBJECT_CUSTOM_ANIM "
   87.3% src/game/
   12.6% src/shared/
