@@ -340,12 +340,6 @@ TBC(cleaned)_COMMIT 3cec295  by Reamer (commiter Schmoozerd) " [s1539] Do not ca
 TBC(cleaned)_COMMIT 8bf2749  by Nighoo (commiter Schmoozerd) " add missing part of recent commit "
  100.0% src/game/
 
-TBC(cleaned)_COMMIT 0687c7b  by machiavelli (commiter Schmoozerd) " [s1540] Remove .hover command "
-  19.0% sql/updates/
-  23.1% sql/
-  47.1% src/game/
-  10.5% src/shared/
-
 TBC(cleaned)_COMMIT df28634  by przemratajczak (commiter Schmoozerd) " [s1541] Implement spell (Decimate) "
   89.0% src/game/
   10.9% src/shared/
