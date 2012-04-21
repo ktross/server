@@ -340,10 +340,6 @@ TBC(cleaned)_COMMIT 3cec295  by Reamer (commiter Schmoozerd) " [s1539] Do not ca
 TBC(cleaned)_COMMIT 8bf2749  by Nighoo (commiter Schmoozerd) " add missing part of recent commit "
  100.0% src/game/
 
-TBC(cleaned)_COMMIT df28634  by przemratajczak (commiter Schmoozerd) " [s1541] Implement spell (Decimate) "
-  89.0% src/game/
-  10.9% src/shared/
-
 TBC(cleaned)_COMMIT 6779ff9  by Schmoozerd (commiter Schmoozerd) " [s1542] Aura 10848 should not cause UNIT_AURAFLAG_ALIVE_INVISIBLE "
   33.3% src/game/
   66.6% src/shared/
