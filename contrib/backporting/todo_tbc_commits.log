@@ -352,15 +352,10 @@ TBC(cleaned)_COMMIT cec1e99  by Schmoozerd (commiter Schmoozerd) " [s1545] Fix l
   29.1% src/game/
   70.8% src/shared/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT aa7fdb9  by Schmoozerd (commiter Schmoozerd) " [s1551] Replace an ASSERT to prevent unnecessairy crashes "
   87.0% src/game/
   12.9% src/shared/
-
-TBC(cleaned)_COMMIT 12bedaa  by Schmoozerd (commiter Schmoozerd) " [s1552] Add support for range dependend slave/master "
-   3.6% sql/updates/
-   4.3% sql/
-  88.9% src/game/
-   3.0% src/shared/
 
 TBC(cleaned)_COMMIT 4cb2330  by Xfurry (commiter Schmoozerd) " [s1553] Implement aura 24210 (overwrite for removed spell 24311 "
   94.6% src/game/
