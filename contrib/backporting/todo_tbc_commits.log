@@ -352,10 +352,6 @@ TBC(cleaned)_COMMIT cec1e99  by Schmoozerd (commiter Schmoozerd) " [s1545] Fix l
   29.1% src/game/
   70.8% src/shared/
 
-TBC(cleaned)_COMMIT 805512e  by Nighoo (commiter Schmoozerd) " change modifier for spell 28374 (decimate) "
-  53.7% src/game/
-  46.2% src/shared/
-
 TBC(cleaned)_COMMIT 4f7e577  by Schmoozerd (commiter Schmoozerd) " [s1549] Implement new conditions system "
   30.4% contrib/convertConditions/
   12.3% sql/updates/
