@@ -468,11 +468,6 @@ TBC(cleaned)_COMMIT 4b041cd  by Schmoozerd (commiter Schmoozerd) " [s1580] Use u
 TBC(cleaned)_COMMIT fbdfe79  by Schmoozerd (commiter Schmoozerd) " [s1581] Fix some spell targeting "
   97.3% src/game/
 
-TBC(cleaned)_COMMIT 4bc51c8  by Schmoozerd (commiter Schmoozerd) " [s1582] Implement creature_linking by guid "
-   4.0% sql/updates/
-   5.4% sql/
-  89.0% src/game/
-
 TBC(cleaned)_COMMIT 9a6da50  by Schmoozerd (commiter Schmoozerd) " [s1583] Fix following for guid linked npcs on evade "
   95.9% src/game/
    4.0% src/shared/
