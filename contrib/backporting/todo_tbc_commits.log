@@ -468,10 +468,6 @@ TBC(cleaned)_COMMIT 4b041cd  by Schmoozerd (commiter Schmoozerd) " [s1580] Use u
 TBC(cleaned)_COMMIT fbdfe79  by Schmoozerd (commiter Schmoozerd) " [s1581] Fix some spell targeting "
   97.3% src/game/
 
-TBC(cleaned)_COMMIT 9a6da50  by Schmoozerd (commiter Schmoozerd) " [s1583] Fix following for guid linked npcs on evade "
-  95.9% src/game/
-   4.0% src/shared/
-
 TBC(cleaned)_COMMIT 017d27e  by boxa (commiter Schmoozerd) " [s1584] cleanup EffectResurrect "
   96.2% src/game/
    3.7% src/shared/
