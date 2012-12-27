@@ -752,7 +752,6 @@ void AuctionEntry::SaveToDB() const
 
 void AuctionEntry::AuctionBidWinning(Player* newbidder)
 {
-    sAuctionMgr.SendAuctionSalePendingMail(this);
     sAuctionMgr.SendAuctionSuccessfulMail(this);
     sAuctionMgr.SendAuctionWonMail(this);
 
