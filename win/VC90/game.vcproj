@@ -99,6 +99,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\game\AuctionHouseBot\ahbot.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -183,6 +184,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\game\AuctionHouseBot\ahbot.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -264,6 +266,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\game\AuctionHouseBot\ahbot.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -347,6 +350,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\game\AuctionHouseBot\ahbot.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -427,6 +431,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\game\AuctionHouseBot\ahbot.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -509,6 +514,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\game\AuctionHouseBot\ahbot.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 	</Configurations>

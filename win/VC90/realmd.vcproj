@@ -113,6 +113,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\realmd\realmd.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -209,6 +210,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\realmd\realmd.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -306,6 +308,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\realmd\realmd.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -403,6 +406,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\realmd\realmd.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -500,6 +504,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\realmd\realmd.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 		<Configuration
@@ -597,6 +602,7 @@
 			/>
 			<Tool
 				Name="VCPostBuildEventTool"
+                                CommandLine="copy ..\..\src\realmd\realmd.conf.dist.in ..\..\bin\$(Platform)_$(Configuration)"
 			/>
 		</Configuration>
 	</Configurations>
