@@ -157,17 +157,6 @@ bool RandomMovementGenerator<Creature>::Update(Creature& creature, const uint32&
     if (i_nextMoveTime.Passed())
         _setRandomLocation(creature);
 
-<<<<<<< HEAD
-            _setRandomLocation(creature);
-        }
-        else if (creature.IsPet() && creature.GetOwner() && !creature.IsWithinDist(creature.GetOwner(), PET_FOLLOW_DIST + 2.5f))
-        {
-            creature.AddSplineFlag(SPLINEFLAG_WALKMODE);
-            _setRandomLocation(creature);
-        }
-    }
-=======
->>>>>>> 112d9ea... [s1377] Cleanup, simplify random and targeted movement generator code
     return true;
 }
 
