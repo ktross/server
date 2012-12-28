@@ -290,18 +290,6 @@ TBC(cleaned)_COMMIT f9f9876  by Schmoozerd (commiter Schmoozerd) " [s1504] Let W
   37.7% sql/
   32.2% src/shared/
 
-TBC(cleaned)_COMMIT 46bfa9c  by Schmoozerd (commiter Schmoozerd) " [s1512] Implement spell 21056 "
-  89.4% src/game/
-  10.5% src/shared/
-
-TBC(cleaned)_COMMIT 66cc8c8  by Forusim (commiter Schmoozerd) " [s1513] Implement spell 31447 "
-  90.4% src/game/
-   9.5% src/shared/
-
-TBC(cleaned)_COMMIT 3e98738  by Hundekuchen (commiter Schmoozerd) " [s1514] Implement spell 32960 "
-  94.2% src/game/
-   5.7% src/shared/
-
 TBC(cleaned)_COMMIT f2e22b0  by zergtmn (commiter Schmoozerd) " [s1515] Some warning fixes "
   82.6% src/game/
   10.2% src/shared/Database/
