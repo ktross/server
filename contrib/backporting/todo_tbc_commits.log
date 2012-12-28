@@ -88,12 +88,6 @@ TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix a
 TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a bug preventing displaying correct instance reset time "
   97.2% src/game/
 
-TBC(cleaned)_COMMIT 1ddcba1  by stfx (commiter Schmoozerd) " [s1399] Receiving whispers while being dnd "
-  14.9% sql/updates/
-   6.3% sql/
-  69.4% src/game/
-   9.1% src/shared/
-
 TBC(cleaned)_COMMIT 61e2366  by stfx (commiter Schmoozerd) " [s1400] Use the same variable to store the message for AFK and DND "
   97.7% src/game/
 
@@ -104,10 +98,6 @@ TBC(cleaned)_COMMIT 75938fb  by stfx (commiter Schmoozerd) " [s1401] Update git_
 TBC(cleaned)_COMMIT 0361ee7  by stfx (commiter Schmoozerd) " [s1402] Fix sending custom GO animation for Type10 GOs "
   83.9% src/game/
   16.0% src/shared/
-
-TBC(cleaned)_COMMIT 3c9982b  by stfx (commiter Schmoozerd) " [s1403] Add missing change of 91d22fe "
-  78.5% sql/
-  21.4% src/shared/
 
 TBC(cleaned)_COMMIT e63dc05  by Schmoozerd (commiter Schmoozerd) " [s1404] Improve db error log output for *_addon auras "
   91.6% src/game/
