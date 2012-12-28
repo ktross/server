@@ -121,16 +121,10 @@ TBC(cleaned)_COMMIT c573f6b  by stfx (commiter Schmoozerd) " [s1428] Fix SMSG_MO
   49.5% src/game/movement/
   50.4% src/shared/
 
-TBC(cleaned)_COMMIT eec4a2e  by stfx (commiter Schmoozerd) " [s1431] Prevent removing template bgs from visible bg list "
-  92.9% src/game/
-   7.0% src/shared/
-
+Need check for classic ?
 TBC(cleaned)_COMMIT 9e1bb1c  by stfx (commiter Schmoozerd) " [s1432] Fix detecting a few indoor locations in 2.4.3 "
   89.7% src/game/
   10.2% src/shared/
-
-TBC(cleaned)_COMMIT 3db6862  by stfx (commiter Schmoozerd) " [s1433] Remove outdated VS 2005 project file "
-  99.8% win/VC80/
 
 TBC(cleaned)_COMMIT 532c849  by stfx (commiter Schmoozerd) " [s1434] Totem/Relic swapping should not trigger GCD "
   84.6% src/game/
