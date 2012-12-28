@@ -75,8 +75,14 @@ int32 ReputationMgr::GetReputation(FactionEntry const* factionEntry) const
     return 0;
 }
 
-ReputationRank ReputationMgr::GetRank(FactionEntry const* factionEntry) const
+ReputationRank ReputationMgr::GetRank(FactionEntry const* factionEntry, bool withForcedReaction) const
 {
+    if (withForcedReaction)
+    {
+        ForcedReactions::const_iterator find = m_forcedReactions.find(factionEntry->ID);
+        if (find != m_forcedReactions.end())
+            return find->second;
+    }
     int32 reputation = GetReputation(factionEntry);
     return ReputationToRank(reputation);
 }
@@ -417,8 +423,8 @@ void ReputationMgr::LoadFromDB(QueryResult* result)
                 }
 
                 // set atWar for hostile
-                if (GetRank(factionEntry) <= REP_HOSTILE)
-                    SetAtWar(faction, true);
+                if (GetRank(factionEntry, true) <= REP_HOSTILE)
+                    SetAtWar(faction,true);
 
                 // reset changed flag if values similar to saved in DB
                 if (faction->Flags == dbFactionFlags)
