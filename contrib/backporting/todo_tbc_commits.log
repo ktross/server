@@ -103,6 +103,7 @@ Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 348032f  by SilverIce (commiter Schmoozerd) " [s1412] remove no more needed CORPSE_FALLING state, move FallGround method to more appropriate place "
   97.6% src/game/
 
+Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 481fe01  by SilverIce (commiter Schmoozerd) " [s1415] Implement jump (parabolic movement) effect "
   12.1% sql/updates/
    9.0% sql/
@@ -110,12 +111,11 @@ TBC(cleaned)_COMMIT 481fe01  by SilverIce (commiter Schmoozerd) " [s1415] Implem
   64.6% src/game/
    9.0% src/shared/
 
+Need check for classic ?
 TBC(cleaned)_COMMIT f316951  by stfx (commiter Schmoozerd) " [s1416] In 2.4.3 knockbacks are not available for creatures "
    3.2% src/game/movement/
   95.2% src/game/
 
-TBC(cleaned)_COMMIT 65cbf6e  by stfx (commiter Schmoozerd) " [s1417] Remove trailing whitespaces "
- 100.0% src/shared/
 
 TBC(cleaned)_COMMIT 6263461  by stfx (commiter Schmoozerd) " [s1418] Cleanup some battleground related code based on master "
   94.1% src/game/
