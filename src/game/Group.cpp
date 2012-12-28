@@ -1068,7 +1068,7 @@ bool Group::_addMember(ObjectGuid guid, const char* name, bool isAssistant, uint
         if (player->IsInWorld())
         {
             // if the same group invites the player back, cancel the homebind timer
-            if (InstanceGroupBind* bind = GetBoundInstance(player->GetMapId(), player))
+            if (InstanceGroupBind* bind = GetBoundInstance(player->GetMapId()))
                 if (bind->state->GetInstanceId() == player->GetInstanceId())
                     player->m_InstanceValid = true;
         }
