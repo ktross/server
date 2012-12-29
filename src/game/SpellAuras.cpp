@@ -951,8 +951,8 @@ void Aura::TriggerSpell()
                     // Detonate Mana
                     case 27819:
                     {
-                        // 33% Mana Burn on normal mode, 50% on heroic mode
-                        int32 bpDamage = (int32)triggerTarget->GetPower(POWER_MANA) / (triggerTarget->GetMap()->GetDifficulty() ? 2 : 3);
+                        // value of 50% of mana is burnt in 1.12 as in wotlk heroic mode
+                        int32 bpDamage = (int32)triggerTarget->GetPower(POWER_MANA) * 0.5f;
                         triggerTarget->ModifyPower(POWER_MANA, -bpDamage);
                         triggerTarget->CastCustomSpell(triggerTarget, 27820, &bpDamage, NULL, NULL, true, NULL, this, triggerTarget->GetObjectGuid());
                         return;
