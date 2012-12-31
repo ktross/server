@@ -12980,7 +12980,7 @@ CREATE TABLE `spell_pet_auras` (
   `pet` mediumint(8) unsigned NOT NULL DEFAULT '0' COMMENT 'pet id; 0 = all',
   `aura` mediumint(8) unsigned NOT NULL COMMENT 'pet aura id',
   PRIMARY KEY (`spell`,`pet`)
-) ENGINE=MyISAM DEFAULT CHARSET=uft8;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
