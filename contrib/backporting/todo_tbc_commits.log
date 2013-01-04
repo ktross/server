@@ -86,6 +86,13 @@ TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a
   97.2% src/game/
 
 Need check for classic ?
+TBC(cleaned)_COMMIT 1ddcba1  by stfx (commiter Schmoozerd) " [s1399] Receiving whispers while being dnd "
+  14.9% sql/updates/
+   6.3% sql/
+  69.4% src/game/
+   9.1% src/shared/
+
+Need check for classic ?
 TBC(cleaned)_COMMIT 61e2366  by stfx (commiter Schmoozerd) " [s1400] Use the same variable to store the message for AFK and DND "
   97.7% src/game/
 
