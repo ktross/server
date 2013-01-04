@@ -13,8 +13,6 @@
 This has no application in classic content. Keep it here as reference in case it was needed to get code in sync!
 TBC(cleaned)_COMMIT 237f9ab  by VladimirMangos (commiter TheLuda) " [s1326] Implement in proper way ITEM_SPELLTRIGGER_ON_STORE (5) "
 
-DestroyItemWithOnStoreSpell does not exist in Classic - Missing another backport?
-TBC(cleaned)_COMMIT 6605f7a  by VladimirMangos (commiter TheLuda) " [s1327] More consitence use m_target for DestroyItemWithOnStoreSpell call in aura. "
 
 Need Check
 TBC(cleaned)_COMMIT cfe2c3b  by VladimirMangos (commiter Schmoozerd) " [s1347] Fixed auction ordering functions assert fails. "
@@ -25,11 +23,6 @@ Need Check
 TBC(cleaned)_COMMIT f4907f3  by zergtmn (commiter Schmoozerd) " [s1352] Use vector instead of list for sorting auction items "
   96.3% src/game/
    3.6% src/shared/
-
-Need Check
-TBC(cleaned)_COMMIT 8147ccb  by Vinolentus (commiter Schmoozerd) " [s1372] Do not remove item on unrelated auraholder remove "
-  86.9% src/game/
-  13.0% src/shared/
 
 Need Check
 TBC(cleaned)_COMMIT efbc494  by Laise (commiter Schmoozerd) " [s1368] add negative auras, channeled and regeneration spells immunity for totems "
