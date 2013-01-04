@@ -85,6 +85,10 @@ TBC(cleaned)_COMMIT fbc1de8  by Schmoozerd (commiter Schmoozerd) " [s1396] Fix a
 TBC(cleaned)_COMMIT 44604a0  by Schmoozerd (commiter Schmoozerd) " [s1397] Fix a bug preventing displaying correct instance reset time "
   97.2% src/game/
 
+Need check for classic ?
+TBC(cleaned)_COMMIT 61e2366  by stfx (commiter Schmoozerd) " [s1400] Use the same variable to store the message for AFK and DND "
+  97.7% src/game/
+
 Need check wehn Spline system is done
 TBC(cleaned)_COMMIT 7101a08  by SilverIce (commiter Schmoozerd) " [s1405] update creature's unit part(update spell events, auras, movement) while in death. thanks to rsa for making tests "
   93.3% src/game/

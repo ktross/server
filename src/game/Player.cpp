@@ -1450,37 +1450,40 @@ bool Player::BuildEnumData(QueryResult* result, WorldPacket* p_data)
     return true;
 }
 
-void Player::ToggleAFK()
+bool Player::ToggleAFK()
 {
     ToggleFlag(PLAYER_FLAGS, PLAYER_FLAGS_AFK);
 
+    bool state = HasFlag(PLAYER_FLAGS, PLAYER_FLAGS_AFK);
+
     // afk player not allowed in battleground
-    if (isAFK() && InBattleGround())
+    if (state && InBattleGround())
         LeaveBattleground();
+
+    return state;
 }
 
-void Player::ToggleDND()
+bool Player::ToggleDND()
 {
     ToggleFlag(PLAYER_FLAGS, PLAYER_FLAGS_DND);
+
+    return HasFlag(PLAYER_FLAGS, PLAYER_FLAGS_DND);
 }
 
 uint8 Player::chatTag() const
 {
     // it's bitmask
-    // 0x1 - afk
-    // 0x2 - dnd
     // 0x3 - gm
-
-    if (isGMChat())                                         // Always show GM icons if activated
+    // 0x2 - dnd
+    // 0x1 - afk
+    if (isGMChat())
         return 3;
-
+    else if (isDND())
+        return 2;
     if (isAFK())
         return 1;
-
-    if (isDND())
-        return 2;
-
-    return 0;
+    else
+        return 0;
 }
 
 bool Player::TeleportTo(uint32 mapid, float x, float y, float z, float orientation, uint32 options)
@@ -16052,10 +16055,10 @@ void Player::Whisper(const std::string& text, uint32 language, ObjectGuid receiv
 
     // announce afk or dnd message
     if (rPlayer->isAFK())
-        ChatHandler(this).PSendSysMessage(LANG_PLAYER_AFK, rPlayer->GetName(), rPlayer->autoReplyMsg.c_str());
+        ChatHandler(this).PSendSysMessage(LANG_PLAYER_AFK, rPlayer->GetName(), rPlayer->afkMsg.c_str());
 
     else if (rPlayer->isDND())
-        ChatHandler(this).PSendSysMessage(LANG_PLAYER_DND, rPlayer->GetName(), rPlayer->autoReplyMsg.c_str());
+        ChatHandler(this).PSendSysMessage(LANG_PLAYER_DND, rPlayer->GetName(), rPlayer->dndMsg.c_str());
 }
 
 void Player::PetSpellInitialize()
